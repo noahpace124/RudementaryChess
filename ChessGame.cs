@@ -50,21 +50,9 @@ public class ChessGame
             // Check if the piece at start position belongs to the current player
             Piece piece = board.Grid[startRow, startCol];
 
-            // Debugging output for piece at start position
-            if (piece == null)
-            {
-                Console.WriteLine("No piece at the start position.");
-                Console.ReadLine();
-                continue;
-            }
-            else
-            {
-                Console.WriteLine($"Piece at {moveParts[0]} is {(piece.IsWhite ? "White" : "Black")}");
-            }
-
             if (piece == null || piece.IsWhite != isWhiteTurn)
             {
-                Console.WriteLine("Please use your pieces.");
+                Console.WriteLine("Please use a valid piece.");
                 Console.ReadLine();
                 continue;
             }
@@ -75,12 +63,10 @@ public class ChessGame
                 if (piece is Pawn && ((piece.IsWhite && endRow == 0) || (!piece.IsWhite && endRow == 7)))
                 {
                     board.Grid[endRow, endCol] = new Queen(piece.IsWhite); // Promote the pawn to a Queen
-                    Console.WriteLine($"Pawn promoted to Queen at {endRow + 1}, {endCol + 1}!");
                 }
 
                 // If the move was valid, switch turns
                 isWhiteTurn = !isWhiteTurn;
-                Console.WriteLine("Move successful!");
             }
             else
             {
@@ -101,14 +87,14 @@ public class ChessGame
         return (row, col); // Return as (row, col) tuple
     }
 
-    private bool HasKing(bool white)
+    private bool HasKing(bool isWhite)
     {
         for (int row = 0; row < 8; row++)
         {
             for (int col = 0; col < 8; col++)
             {
                 Piece piece = board.Grid[row, col];
-                if (piece is King && piece.IsWhite == white)
+                if (piece is King && piece.IsWhite == isWhite)
                 {
                     return true; // King is present
                 }
