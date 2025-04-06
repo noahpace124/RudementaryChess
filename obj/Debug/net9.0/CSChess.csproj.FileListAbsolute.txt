@@ -1,0 +1,14 @@
+C:\Users\Noah\Documents\CS\CSChess\bin\Debug\net9.0\CSChess.exe
+C:\Users\Noah\Documents\CS\CSChess\bin\Debug\net9.0\CSChess.deps.json
+C:\Users\Noah\Documents\CS\CSChess\bin\Debug\net9.0\CSChess.runtimeconfig.json
+C:\Users\Noah\Documents\CS\CSChess\bin\Debug\net9.0\CSChess.dll
+C:\Users\Noah\Documents\CS\CSChess\bin\Debug\net9.0\CSChess.pdb
+C:\Users\Noah\Documents\CS\CSChess\obj\Debug\net9.0\CSChess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Noah\Documents\CS\CSChess\obj\Debug\net9.0\CSChess.AssemblyInfoInputs.cache
+C:\Users\Noah\Documents\CS\CSChess\obj\Debug\net9.0\CSChess.AssemblyInfo.cs
+C:\Users\Noah\Documents\CS\CSChess\obj\Debug\net9.0\CSChess.csproj.CoreCompileInputs.cache
+C:\Users\Noah\Documents\CS\CSChess\obj\Debug\net9.0\CSChess.dll
+C:\Users\Noah\Documents\CS\CSChess\obj\Debug\net9.0\refint\CSChess.dll
+C:\Users\Noah\Documents\CS\CSChess\obj\Debug\net9.0\CSChess.pdb
+C:\Users\Noah\Documents\CS\CSChess\obj\Debug\net9.0\CSChess.genruntimeconfig.cache
+C:\Users\Noah\Documents\CS\CSChess\obj\Debug\net9.0\ref\CSChess.dll
